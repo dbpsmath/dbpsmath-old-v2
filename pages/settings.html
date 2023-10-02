@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <script src="/src/script.js"></script>
+    <script src="/src/settings.js"></script>
     <script src="/src/tabcloak.js"></script>
     <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/settings.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DBP's Math</title>
@@ -21,18 +24,17 @@
     <ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/pages/gxmes.html">Games</a></li>
-        <li><a href="#">Proxies</a>
-        <li><a href="/pages/school/tips.html">Tips and Bookmarklets</a></li>
-        <li><a href="#">Settings</a></li>
+        <li><a href="/pages/worksheet.html">Proxies</a>
+        <li><a href="/pages/tipsandbxxkmarklets.html">Tips and Bookmarklets</a></li>
     </ul>
     </div>
 </nav>
-<br> <br> <br> <br> <br> <br> <br> <br>
-<h2>Quizlet <a href="https://quizlet.com">(Website)</a></h2>
-<p>Quizlet is the greatest study site, including flash cards and other stuff. It's a great great website!</p>
-<h2>Don't cheat</h2>
-<p>Don't cheat. Seriously, it's going to catch up to you later. If you have cheated then just come clean.</p>
-<h2>Be smart with game websites</h2>
-<p>Don't use game websites during classes, please, it will save a LOT of hassle from you.</p>
+<div class="center-container"></div>
+<input type="text" id="tabname" placeholder="Tab name">
+<button onclick="setTab()" class="secondary">Set tab name</button>
+<br>
+<input type="text" id="tabicon" placeholder="Tab icon">
+<button onclick="setTab()" class="secondary">Set tab icon</button>
+</div>
 </body>
 </html>

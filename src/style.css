@@ -121,12 +121,17 @@ button {
     transition: 0.4s all;
 }
 
-.center-container {
+.center-container2 {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.center-container {
+    padding: 70px 0;
+    text-align: center;  
 }
 
 .links {
