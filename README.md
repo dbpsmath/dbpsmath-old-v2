@@ -7,7 +7,8 @@ Features:
 - Easy hosting
 
 Todo:
-[ ] Fix tab cloaking
-[ ] Custom games
-[ ] Fix games
-[ ] Fix file paths
+- [ ] Fix tab cloaking
+- [ ] Custom games
+- [ ] Fix games
+- [ ] Fix file paths
+- [ ] Add game tab cloaking
