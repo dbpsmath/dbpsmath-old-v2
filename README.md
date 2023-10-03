@@ -1,4 +1,13 @@
-# WARNING: DON'T USE, NOT FINISHED
+# DBP's Math V2
 
-# wip
-WIP version of DBP's Math not based off of BlazerGames, and built from the ground up
+Features:
+- Site wide tab cloaking
+- Many games
+- Customizability
+- Easy hosting
+
+Todo:
+[ ] Fix tab cloaking
+[ ] Custom games
+[ ] Fix games
+[ ] Fix file paths
