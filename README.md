@@ -9,6 +9,6 @@ Features:
 Todo:
 - [ ] Fix tab cloaking
 - [ ] Custom games
-- [ ] Fix games
-- [ ] Fix file paths
+- [x] Fix games
+- [x] Fix file paths
 - [ ] Add game tab cloaking
