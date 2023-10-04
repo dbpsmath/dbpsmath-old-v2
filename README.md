@@ -24,7 +24,7 @@ https://dbpsmath.github.io
 # How do I deploy?
 Press any one of our deployment buttons here! (Github is the easiest)
 
-[<img src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png#gh-light-mode-only" width="25"/>](https://github.com/dbpsmath/dbpsmath.github.io/fork)
+[<img src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png#dark-mode-only" width="25"/>](https://github.com/dbpsmath/dbpsmath.github.io/fork)
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/dbpsmath/dbpsmath.github.io"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://replit.com/github/dbpsmath/dbpsmath.github.io"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
 <a target="_blank" href="https://glitch.com/edit/#!/import/github/dbpsmath/dbpsmath.github.io"><img alt="Remix on Glitch" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg"></a>
