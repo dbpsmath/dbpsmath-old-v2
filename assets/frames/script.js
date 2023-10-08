@@ -1,8 +1,4 @@
 /* Hello there! Most of this code is commented to help you understand. */
-
-
-const frame = document.getElementById('frame')
-const icon = document.getElementById('icon')
 // This function I got from https://www.sitepoint.com/get-url-parameters-with-javascript/
 function getAllUrlParams(url) {
 
@@ -69,16 +65,11 @@ function getAllUrlParams(url) {
     return obj;
   }
 
-const urlParams = getAllUrlParams(window.location.href)
-const game = window.location.host + "/" + urlParams.game
-console.log(game)
-console.log("git won't detect this")
+const urlParams = getAllUrlParams(window.location.href);
+const game = "https://" + window.location.host + "/" + urlParams.game;
+  
+const frame = document.getElementById("frame");
+const icon = document.getElementById("gameImage");
 
-function changeDetails() {
-    frame.src = game
-    icon.src = game + "/gameicon.png"
-}
-
-document.addEventListener("DOMContentLoaded", (event) => {
-	changeDetails()
-});
+frame.src = game
+icon.src = game + "/gameicon.png"
