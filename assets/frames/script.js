@@ -71,7 +71,16 @@ const game = "https://" + window.location.host + "/" + urlParams.game;
 const frame = document.getElementById("frame");
 const icon = document.getElementById("gameImage");
 const link = document.getElementById("link");
+const title = document.getElementById("gameTitle");
+const titleFile = game + "/title.txt"
 
 frame.src = game + "/index.html"
 icon.src = game + "/gameicon.png"
 link.href = game + "/index.html"
+
+fetch(titleFile)
+  .then((res) => res.text())
+  .then((text) => {
+    title.innerHTML = text
+  })
+  .catch((e) => console.error(e));
