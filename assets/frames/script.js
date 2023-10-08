@@ -70,6 +70,8 @@ const game = "https://" + window.location.host + "/" + urlParams.game;
   
 const frame = document.getElementById("frame");
 const icon = document.getElementById("gameImage");
+const link = document.getElementById("link");
 
 frame.src = game + "/index.html"
 icon.src = game + "/gameicon.png"
+link.href = game + "/index.html"
