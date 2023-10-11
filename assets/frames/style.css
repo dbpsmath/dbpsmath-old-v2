@@ -85,3 +85,7 @@ button {
     height: 75px;
     border-radius: 5px;
 }
+
+.seo {
+    display: none;
+}

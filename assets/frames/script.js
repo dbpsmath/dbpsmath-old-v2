@@ -83,17 +83,11 @@ frame.src = game + "/index.html"
 icon.src = game + "/gameicon.png"
 link.href = game + "/index.html"
 
+
 fetch(titleFile)
   .then((res) => res.text())
   .then((text) => {
     title.innerHTML = text
-  })
-  .catch((e) => console.error(e));
-
-fetch(noteFile)
-  .then((res) => res.text())
-  .then((text) => {
-    note.innerHTML = text
   })
   .catch((e) => console.error(e));
 
@@ -103,3 +97,4 @@ fetch(noteFile)
     seo.innerHTML = text
   })
   .catch((e) => console.error(e));
+
