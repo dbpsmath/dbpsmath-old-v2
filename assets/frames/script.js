@@ -72,7 +72,10 @@ const frame = document.getElementById("frame");
 const icon = document.getElementById("gameImage");
 const link = document.getElementById("link");
 const title = document.getElementById("gameTitle");
+const note = document.getElementById("gameDescription");
 const titleFile = game + "/title.txt"
+const noteFile = game + "/note.txt"
+
 
 frame.src = game + "/index.html"
 icon.src = game + "/gameicon.png"
@@ -82,5 +85,12 @@ fetch(titleFile)
   .then((res) => res.text())
   .then((text) => {
     title.innerHTML = text
+  })
+  .catch((e) => console.error(e));
+
+fetch(noteFile)
+  .then((res) => res.text())
+  .then((text) => {
+    note.innerHTML = text
   })
   .catch((e) => console.error(e));
