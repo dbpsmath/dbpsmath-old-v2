@@ -73,7 +73,9 @@ const icon = document.getElementById("gameImage");
 const link = document.getElementById("link");
 const title = document.getElementById("gameTitle");
 const note = document.getElementById("gameDescription");
+const seo = document.getElementById("seo");
 const titleFile = game + "/title.txt"
+const seoFile = game + "/seo.txt"
 const noteFile = game + "/note.txt"
 
 
@@ -92,5 +94,12 @@ fetch(noteFile)
   .then((res) => res.text())
   .then((text) => {
     note.innerHTML = text
+  })
+  .catch((e) => console.error(e));
+
+  fetch(seoFile)
+  .then((res) => res.text())
+  .then((text) => {
+    seo.innerHTML = text
   })
   .catch((e) => console.error(e));
