@@ -72,12 +72,9 @@ const frame = document.getElementById("frame");
 const icon = document.getElementById("gameImage");
 const link = document.getElementById("link");
 const title = document.getElementById("gameTitle");
-const note = document.getElementById("gameDescription");
 const seo = document.getElementById("seo");
 const titleFile = game + "/title.txt"
 const seoFile = game + "/seo.txt"
-const noteFile = game + "/note.txt"
-
 
 frame.src = game + "/index.html"
 icon.src = game + "/gameicon.png"
