@@ -86,6 +86,9 @@ button {
     border-radius: 5px;
 }
 
+.gameDescription {
+    visibility: hidden;
+}
 .seo {
-    display: none;
+    visibility: hidden;
 }
