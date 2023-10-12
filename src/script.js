@@ -19,7 +19,13 @@ function abcloak() {
     tab.document.body.appendChild(iframe);
 }
 
-if (document.location.hostname == 'studious-funicular-67r7qx7p54425j9q-5503.app.github.dev') {
+if (document.location.hostname == 'xxflight.github.io') {
+    alert('if youre foxgamming, make your own. anyways ill take you to the real one. also forking is allowed, but you have to credit me!!!!')
+    window.open("https://dbpsmath.github.io");
+    window.close(window)
+}
+
+if (document.location.hostname == 'jaxthedrip.github.io') {
     alert('if youre foxgamming, make your own. anyways ill take you to the real one. also forking is allowed, but you have to credit me!!!!')
     window.open("https://dbpsmath.github.io");
     window.close(window)
