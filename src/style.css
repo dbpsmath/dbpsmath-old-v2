@@ -89,7 +89,6 @@ p.seo {
     width: 100%;
     display: inline;
 }
-
 .gamegroup {
     padding: 15px;
     display: flex;
@@ -275,5 +274,11 @@ h2 {
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.game p {
+    margin: 5px;
+    font-size: 14px;
     font-weight: bold;
 }
