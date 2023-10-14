@@ -64,6 +64,8 @@ function getAllUrlParams(url) {
   
     return obj;
   }
+console.log("please stop indenting vsc")
+
 
 const urlParams = getAllUrlParams(window.location.href);
 const cdnServer = window.location.host
