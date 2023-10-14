@@ -66,11 +66,12 @@ function getAllUrlParams(url) {
   }
 console.log("please stop indenting vsc")
 
-
+// Define URL/URLParam/Game variables
 const urlParams = getAllUrlParams(window.location.href);
 const cdnServer = window.location.host
 const game = "https://" + cdnServer + "/" + urlParams.game;
-  
+
+// Define element variables
 const frame = document.getElementById("frame");
 const icon = document.getElementById("gameImage");
 const link = document.getElementById("link");
@@ -79,11 +80,12 @@ const seo = document.getElementById("seo");
 const titleFile = game + "/title.txt"
 const seoFile = game + "/seo.txt"
 
+// Change elements
 frame.src = game + "/index.html"
 icon.src = game + "/gameicon.png"
 link.href = game + "/index.html"
 
-
+// Fetch files
 fetch(titleFile)
   .then((res) => res.text())
   .then((text) => {
@@ -91,7 +93,7 @@ fetch(titleFile)
   })
   .catch((e) => console.error(e));
 
-  fetch(seoFile)
+fetch(seoFile)
   .then((res) => res.text())
   .then((text) => {
     seo.innerHTML = text
