@@ -40,7 +40,7 @@ Because of how easy this is to spin up and/or use, how many links I'm setting up
 ## How did you make this
 I custom made this HTML site, then added games with the [3hk0-assets](https://github.com/3kh0/3kh0-Assets) repository. After that, I added on a lot more stuff.
 ## Is there a tab cloaker?
-Yes! It is automatically cloaked as Google however you cannot change it, we're hoping to add that in soon.
+We are working on one
 ## How can I know that someone is you?
 My discord ID is currently `810226107248803881`.
 ## Are there bookmarklets?
