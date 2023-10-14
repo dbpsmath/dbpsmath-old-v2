@@ -66,7 +66,8 @@ function getAllUrlParams(url) {
   }
 
 const urlParams = getAllUrlParams(window.location.href);
-const game = "https://" + window.location.host + "/" + urlParams.game;
+const cdnServer = window.location.host
+const game = "https://" + cdnServer + "/" + urlParams.game;
   
 const frame = document.getElementById("frame");
 const icon = document.getElementById("gameImage");
