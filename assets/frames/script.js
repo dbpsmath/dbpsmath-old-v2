@@ -76,9 +76,7 @@ const frame = document.getElementById("frame");
 const icon = document.getElementById("gameImage");
 const link = document.getElementById("link");
 const title = document.getElementById("gameTitle");
-const seo = document.getElementById("seo");
 const titleFile = game + "/title.txt"
-const seoFile = game + "/seo.txt"
 
 // Change elements
 frame.src = game + "/index.html"
@@ -92,11 +90,3 @@ fetch(titleFile)
     title.innerHTML = text
   })
   .catch((e) => console.error(e));
-
-fetch(seoFile)
-  .then((res) => res.text())
-  .then((text) => {
-    seo.innerHTML = text
-  })
-  .catch((e) => console.error(e));
-
