@@ -38,7 +38,7 @@ Because of how easy this is to spin up and/or use, how many links I'm setting up
 
 # FAQ
 ## How did you make this
-I custom made this HTML site, then added games with the [3hk0-assets](https://github.com/3kh0/3kh0-Assets) repository. After that, I added on a lot more stuff.
+I custom made this HTML site, then added games with the [3hk0-assets](https://github.com/3kh0/3kh0-Assets) repository and the [binbashbanana gfiles](https://github.com/binbashbanana/gfiles) repository
 ## Is there a tab cloaker?
 We are working on one
 ## How can I know that someone is you?
