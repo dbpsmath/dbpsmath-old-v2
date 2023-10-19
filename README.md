@@ -19,10 +19,11 @@ An unblocked game website that lets you play many games, has multiple proxies, a
 # What are your official links?
 
 We currently have four official links:  
-https://dbpsmath.github.io  
-https://cdn.mathtutoringwithlove.info/cdn/dbpsmath/dbpsmath.github.io/main/index.html
-https://gitloaf.albios.repl.co/cdn/dbpsmath/dbpsmath.github.io/main/index.html
-https://rawcdn.githack.com/dbpsmath/dbpsmath.github.io/398e5602e158aedc16b1742565324e5e4890409c/index.html
+https://dbpsmath.github.io   
+https://cdn.mathtutoringwithlove.info/cdn/dbpsmath/dbpsmath.github.io/main/index.html  
+https://gitloaf.albios.repl.co/cdn/dbpsmath/dbpsmath.github.io/main/index.html  
+https://rawcdn.githack.com/dbpsmath/dbpsmath.github.io/398e5602e158aedc16b1742565324e5e4890409c/index.html  
+https://3v3ry0n3.github.io/dbpsmath/
 
 # How do I deploy?
 Press any one of our deployment buttons here! (Github is the easiest)
