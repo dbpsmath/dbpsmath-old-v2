@@ -1,6 +1,6 @@
 [project]
 title = MonkeyMart
-version = 2.2
+version = 2.1
 write_log = 0
 compress_archive = 1
 publisher = unnamed
@@ -29,7 +29,6 @@ clear_color_alpha = 0
 
 [physics]
 type = 2D
-max_collision_object_count = 128
 use_fixed_timestep = 0
 gravity_y = -10
 debug = 0
@@ -87,7 +86,7 @@ game_binding = /input/game.input_bindingc
 use_accelerometer = 1
 
 [sprite]
-max_count = 512
+max_count = 1024
 subpixels = 1
 
 [model]
@@ -205,13 +204,10 @@ max_tile_count = 0
 run_while_iconified = 0
 fixed_update_frequency = 60
 
+[native_extension]
+app_manifest = /manifest.appmanifest
+
 [gameanalytics]
 game_key_html5 = 8460790931685c9f59f3e669a97521bd
 secret_key_html5 = 6d3a08c1c25fca8bb1587ed50c42a81ddff80aa0
-
-[spine]
-max_count = 512
-
-[native_extension]
-app_manifest = /manifest.appmanifest
 
